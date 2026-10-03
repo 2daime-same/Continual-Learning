@@ -1,0 +1,20 @@
+== naive
+{'night': 0, 'day1': 0.0, 'day2': 0.25, 'day3': 0.75, 'confusion': 0.25, 'general': 0.58, 'ppl': 24.2}
+{'night': 1, 'secs': 24, 'day1': 1.0, 'day2': 0.0, 'day3': 0.5, 'confusion': 0.42, 'general': 0.33, 'ppl': 47.1}
+{'night': 2, 'secs': 22, 'day1': 1.0, 'day2': 1.0, 'day3': 0.25, 'confusion': 0.75, 'general': 0.67, 'ppl': 105.1}
+{'night': 3, 'secs': 21, 'day1': 1.0, 'day2': 0.75, 'day3': 1.0, 'confusion': 0.5, 'general': 0.5, 'ppl': 133.6}
+== replay
+{'night': 0, 'day1': 0.0, 'day2': 0.25, 'day3': 0.75, 'confusion': 0.25, 'general': 0.58, 'ppl': 24.2}
+{'night': 1, 'secs': 23, 'day1': 1.0, 'day2': 0.0, 'day3': 0.5, 'confusion': 0.42, 'general': 0.33, 'ppl': 47.1}
+{'night': 2, 'secs': 30, 'day1': 1.0, 'day2': 1.0, 'day3': 0.25, 'confusion': 0.75, 'general': 0.42, 'ppl': 84.7}
+{'night': 3, 'secs': 35, 'day1': 1.0, 'day2': 1.0, 'day3': 1.0, 'confusion': 0.92, 'general': 0.54, 'ppl': 117.5}
+== dream
+{'night': 0, 'day1': 0.0, 'day2': 0.25, 'day3': 0.75, 'confusion': 0.25, 'general': 0.58, 'ppl': 24.2}
+{'night': 1, 'secs': 67, 'day1': 1.0, 'day2': 0.0, 'day3': 0.5, 'confusion': 0.42, 'general': 0.42, 'ppl': 57.8}
+{'night': 2, 'secs': 73, 'day1': 1.0, 'day2': 1.0, 'day3': 0.0, 'confusion': 0.75, 'general': 0.58, 'ppl': 164.1}
+{'night': 3, 'secs': 81, 'day1': 1.0, 'day2': 1.0, 'day3': 1.0, 'confusion': 1.0, 'general': 0.75, 'ppl': 138.3}
+== dream --lr 1e-4 --epochs 4
+{'night': 0, 'day1': 0.0, 'day2': 0.25, 'day3': 0.75, 'confusion': 0.25, 'general': 0.58, 'ppl': 24.2}
+{'night': 1, 'secs': 46, 'day1': 1.0, 'day2': 0.0, 'day3': 0.0, 'confusion': 0.42, 'general': 0.46, 'ppl': 31.9}
+{'night': 2, 'secs': 50, 'day1': 1.0, 'day2': 1.0, 'day3': 0.25, 'confusion': 0.75, 'general': 0.5, 'ppl': 52.4}
+{'night': 3, 'secs': 55, 'day1': 1.0, 'day2': 1.0, 'day3': 1.0, 'confusion': 1.0, 'general': 0.38, 'ppl': 65.0}
